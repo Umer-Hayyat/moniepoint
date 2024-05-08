@@ -1,0 +1,67 @@
+// src/components/NavBar.scss
+
+.top-bar {
+  position: relative;
+  top: 4%;
+  border-radius: 25px;
+  display: inline-flex;
+  flex-direction: row !important;
+  align-items: center !important;
+  padding: 10px 0 10px;
+  background-color: #060A23 !important;
+  height: 40px;
+
+
+  .logo-container {
+    min-width: 5vw;
+    padding-left: 10px;
+
+  }
+
+  .toobar-container {
+    // min-width: 500px !important;
+    margin: 0 auto !important;
+    background-color: #060A23;
+    border-radius: 15px;
+    position: relative;
+    width: 77vw;
+
+
+    .toolbar {
+      color: #9ba4b9;
+      width: 100%;
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .button-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10vw;
+    overflow: hidden;
+    // padding-right: 16px;
+    // max-width: 10%;
+
+    .transparent-button {
+      color: rgb(240, 240, 240);
+      max-width: 20px;
+      margin-right: 20px;
+      width: 17px;
+      min-width: 17px;
+      padding: 0;
+
+      .MuiSvgIcon-root {
+        font-size: 25px;
+      }
+
+      &:nth-child(-n+2) {
+        margin-right: 29px;
+      }
+    }
+  }
+}
